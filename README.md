@@ -6,21 +6,21 @@ At this time I have performed limited testing with some of these commands, but n
 # Instructions
 1. Modify lines 2, 3, and 4 with your Access ID, Secret Key, and Default Organization. Use single quotes in order to avoid any issues with special characters like $.
 
-..* You can edit using Notepad or PowerShell ISE. 
+  * You can edit using Notepad or PowerShell ISE. 
 
 2. Execute PowerShell
 
-..* If you aren't a normal PowerShell user, be sure you've run `Set-ExecutionPolicy Unrestricted`.  This will allow you to run PowerShell commands.  Doing so will not expose you to any additional risk, as Execution Policies are poor at best.
+  * If you aren't a normal PowerShell user, be sure you've run `Set-ExecutionPolicy Unrestricted`.  This will allow you to run PowerShell commands.  Doing so will not expose you to any additional risk, as Execution Policies are poor at best.
 
 3. Import the ThreatConnectV2API module by substituting the full path in the following command: `Import-Module C:\ThreatConnectV2API.psm1`
 
-..* As an alternative you can copy the module files to `C:\Users\youusername\WindowsPowerShell\Modules\ThreatConnectV2API.psm1` and afterwards use `Import-Module ThreatConnectV2API`
+  * As an alternative you can copy the module files to `C:\Users\youusername\WindowsPowerShell\Modules\ThreatConnectV2API.psm1` and afterwards use `Import-Module ThreatConnectV2API`
 
 4. Take a look at the available commands by running `Get-Command -Module ThreatConnectV2API`
 
 5. Get more information about specific commands by running `Get-Help <COMMAND NAME HERE>`
 
-..* For Example `Get-Help Get-Owners`
+  * For Example `Get-Help Get-Owners`
 
 # Available Commands
 * Get-Owners
