@@ -24,3 +24,13 @@ At this time I have performed limited testing with some of these commands, but n
 
 # Available Commands
 * Get-Owners
+* Get-Adversaries
+  * Get-Adversaries -Owner "Common Community"
+  * Get-Adversaries -AdversaryID 123456
+  * Get-Adversaries -TagName "BadStuff"
+  * Get-Adversaries -SecurityLabel "Confidential"
+  * Get-Adversaries -IncidentID 123456
+  * Get-Adversaries -ThreatID 123456
+  * Get-Adversaries -EmailID 123456
+  * Get-Adversaries -SignatureID 123456
+  * Get-Adversaries -VictimID 123456
