@@ -23,34 +23,55 @@ At this time I have performed limited testing with some of these commands, but n
   * For Example `Get-Help Get-Owners`
 
 # Available Commands
+  * Note: -Owner switch can be used alongside most of the other switches.
 * Get-Owners
 * Get-Adversaries
-  * Get-Adversaries -Owner "Common Community"
+  * Get-Adversaries
   * Get-Adversaries -AdversaryID "123456"
-  * Get-Adversaries -TagName "BadStuff"
-  * Get-Adversaries -SecurityLabel "Confidential"
-  * Get-Adversaries -IncidentID "123456"
-  * Get-Adversaries -ThreatID "123456"
   * Get-Adversaries -EmailID "123456"
+  * Get-Adversaries -IncidentID "123456"
+  * Get-Adversaries -SecurityLabel "Confidential"
   * Get-Adversaries -SignatureID "123456"
+  * Get-Adversaries -TagName "BadStuff"
+  * Get-Adversaries -ThreatID "123456"
   * Get-Adversaries -VictimID "123456"
 * Get-Emails
-  * Get-Emails -Owner "Common Community"
-  * Get-Emails -EmailID "123456"
-  * Get-Emails -TagName "BadStuff"
-  * Get-Emails -SecurityLabel "Confidential"
-  * Get-Emails -IncidentID "123456"
-  * Get-Emails -ThreatID "123456"
+  * Get-Emails
   * Get-Emails -AdversaryID "123456"
+  * Get-Emails -EmailID "123456"
+  * Get-Emails -IncidentID "123456"
+  * Get-Emails -SecurityLabel "Confidential"
   * Get-Emails -SignatureID "123456"
+  * Get-Emails -TagName "BadStuff"
+  * Get-Emails -ThreatID "123456"
   * Get-Emails -VictimID "123456"
+* Get-Incidents
+  * Get-Incidents
+  * Get-Incidents -AdversaryID "123456"
+  * Get-Incidents -EmailID "123456"
+  * Get-Incidents -IncidentID "123456"
+  * Get-Incidents -SecurityLabel "Confidential"
+  * Get-Incidents -SignatureID "123456"
+  * Get-Incidents -TagName "BadStuff"
+  * Get-Incidents -ThreatID "123456"
+  * Get-Incidents -VictimID "123456"
 * Get-Signatures
-  * Get-Signatures -Owner "Common Community"
-  * Get-Signatures -EmailID "123456"
-  * Get-Signatures -TagName "BadStuff"
-  * Get-Signatures -SecurityLabel "Confidential"
-  * Get-Signatures -IncidentID "123456"
-  * Get-Signatures -ThreatID "123456"
+  * Get-Signatures
   * Get-Signatures -AdversaryID "123456"
+  * Get-Signatures -EmailID "123456"
+  * Get-Signatures -IncidentID "123456"
+  * Get-Signatures -SecurityLabel "Confidential"
   * Get-Signatures -SignatureID "123456"
+  * Get-Signatures -TagName "BadStuff"
+  * Get-Signatures -ThreatID "123456"
   * Get-Signatures -VictimID "123456"
+* Get-Threats
+  * Get-Threats
+  * Get-Threats -AdversaryID "123456"
+  * Get-Threats -EmailID "123456"
+  * Get-Threats -IncidentID "123456"
+  * Get-Threats -SecurityLabel "Confidential"
+  * Get-Threats -SignatureID "123456"
+  * Get-Threats -TagName "BadStuff"
+  * Get-Threats -ThreatID "123456"
+  * Get-Threats -VictimID "123456"
