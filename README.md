@@ -35,6 +35,12 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-Adversaries -TagName "BadStuff"
   * Get-Adversaries -ThreatID "123456"
   * Get-Adversaries -VictimID "123456"
+* Get-Attributes
+  * Get-Attributes -AdversaryID "123456"
+  * Get-Attributes -EmailID "123456"
+  * Get-Attributes -IncidentID "123456"
+  * Get-Attributes -SignatureID "123456"
+  * Get-Attributes -ThreatID "123456"
 * Get-Emails
   * Get-Emails
   * Get-Emails -AdversaryID "123456"
