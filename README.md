@@ -97,3 +97,10 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-Tags -SignatureID "123456"
   * Get-Tags -TagName "BadStuff"
   * Get-Tags -ThreatID "123456"
+* Get-Victims
+  * Get-Victims
+  * Get-Victims -AdversaryID 123456
+  * Get-Victims -EmailID "123456"
+  * Get-Victims -IncidentID "123456"
+  * Get-Victims -SignatureID "123456"
+  * Get-Victims -ThreatID "123456"
