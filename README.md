@@ -23,7 +23,7 @@ At this time I have performed limited testing with some of these commands, but n
   * For Example `Get-Help Get-Owners`
 
 # Available Commands
-`Note: -Owner switch can be used alongside most of the other switches.`
+`Note: -Owner switch can be used alongside many other switches. I have not included documentation on when it is available.`
 * Get-Owners
 * Get-Adversaries
   * Get-Adversaries
@@ -81,3 +81,19 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-Threats -TagName "BadStuff"
   * Get-Threats -ThreatID "123456"
   * Get-Threats -VictimID "123456"
+* Get-SecurityLabels
+  * Get-SecurityLabels
+  * Get-SecurityLabels -AdversaryID 123456
+  * Get-SecurityLabels -EmailID "123456"
+  * Get-SecurityLabels -IncidentID "123456"
+  * Get-SecurityLabels -SecurityLabel "Confidential"
+  * Get-SecurityLabels -SignatureID "123456"
+  * Get-SecurityLabels -ThreatID "123456"
+* Get-Tags
+  * Get-Tags
+  * Get-Tags -AdversaryID 123456
+  * Get-Tags -EmailID "123456"
+  * Get-Tags -IncidentID "123456"
+  * Get-Tags -SignatureID "123456"
+  * Get-Tags -TagName "BadStuff"
+  * Get-Tags -ThreatID "123456"
