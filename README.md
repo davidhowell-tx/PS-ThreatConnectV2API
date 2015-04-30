@@ -23,7 +23,7 @@ At this time I have performed limited testing with some of these commands, but n
   * For Example `Get-Help Get-Owners`
 
 # Available Commands
-  * Note: -Owner switch can be used alongside most of the other switches.
+`Note: -Owner switch can be used alongside most of the other switches.`
 * Get-Owners
 * Get-Adversaries
   * Get-Adversaries
