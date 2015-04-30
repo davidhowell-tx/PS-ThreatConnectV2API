@@ -44,3 +44,13 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-Emails -AdversaryID "123456"
   * Get-Emails -SignatureID "123456"
   * Get-Emails -VictimID "123456"
+* Get-Signatures
+  * Get-Signatures -Owner "Common Community"
+  * Get-Signatures -EmailID "123456"
+  * Get-Signatures -TagName "BadStuff"
+  * Get-Signatures -SecurityLabel "Confidential"
+  * Get-Signatures -IncidentID "123456"
+  * Get-Signatures -ThreatID "123456"
+  * Get-Signatures -AdversaryID "123456"
+  * Get-Signatures -SignatureID "123456"
+  * Get-Signatures -VictimID "123456"
