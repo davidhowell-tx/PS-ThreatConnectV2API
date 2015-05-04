@@ -24,93 +24,98 @@ At this time I have performed limited testing with some of these commands, but n
 
 # Available Commands
 `Note: -Owner switch can be used alongside many other switches. I have not included documentation on when it is available.`
-* Get-Owners
-* Get-Adversaries
-  * Get-Adversaries
-  * Get-Adversaries -AdversaryID "123456"
-  * Get-Adversaries -EmailID "123456"
-  * Get-Adversaries -IncidentID "123456"
-  * Get-Adversaries -SecurityLabel "Confidential"
-  * Get-Adversaries -SignatureID "123456"
-  * Get-Adversaries -TagName "BadStuff"
-  * Get-Adversaries -ThreatID "123456"
-  * Get-Adversaries -VictimID "123456"
-* Get-Groups
-  * Get-Groups
-  * Get-Groups -AdversaryID 123456
-  * Get-Groups -EmailID "123456"
-  * Get-Groups -IncidentID "123456"
-  * Get-Groups -SecurityLabel "Confidential"
-  * Get-Groups -SignatureID "123456"
-  * Get-Groups -TagName "BadStuff"
-  * Get-Groups -ThreatID "123456"
-  * Get-Groups -VictimID "123456"
-* Get-Attributes
-  * Get-Attributes -AdversaryID "123456"
-  * Get-Attributes -EmailID "123456"
-  * Get-Attributes -IncidentID "123456"
-  * Get-Attributes -SignatureID "123456"
-  * Get-Attributes -ThreatID "123456"
-* Get-Emails
-  * Get-Emails
-  * Get-Emails -AdversaryID "123456"
-  * Get-Emails -EmailID "123456"
-  * Get-Emails -IncidentID "123456"
-  * Get-Emails -SecurityLabel "Confidential"
-  * Get-Emails -SignatureID "123456"
-  * Get-Emails -TagName "BadStuff"
-  * Get-Emails -ThreatID "123456"
-  * Get-Emails -VictimID "123456"
-* Get-Incidents
-  * Get-Incidents
-  * Get-Incidents -AdversaryID "123456"
-  * Get-Incidents -EmailID "123456"
-  * Get-Incidents -IncidentID "123456"
-  * Get-Incidents -SecurityLabel "Confidential"
-  * Get-Incidents -SignatureID "123456"
-  * Get-Incidents -TagName "BadStuff"
-  * Get-Incidents -ThreatID "123456"
-  * Get-Incidents -VictimID "123456"
-* Get-Signatures
-  * Get-Signatures
-  * Get-Signatures -AdversaryID "123456"
-  * Get-Signatures -EmailID "123456"
-  * Get-Signatures -IncidentID "123456"
-  * Get-Signatures -SecurityLabel "Confidential"
-  * Get-Signatures -SignatureID "123456"
-  * Get-Signatures -TagName "BadStuff"
-  * Get-Signatures -ThreatID "123456"
-  * Get-Signatures -VictimID "123456"
-* Get-Threats
-  * Get-Threats
-  * Get-Threats -AdversaryID "123456"
-  * Get-Threats -EmailID "123456"
-  * Get-Threats -IncidentID "123456"
-  * Get-Threats -SecurityLabel "Confidential"
-  * Get-Threats -SignatureID "123456"
-  * Get-Threats -TagName "BadStuff"
-  * Get-Threats -ThreatID "123456"
-  * Get-Threats -VictimID "123456"
-* Get-SecurityLabels
-  * Get-SecurityLabels
-  * Get-SecurityLabels -AdversaryID 123456
-  * Get-SecurityLabels -EmailID "123456"
-  * Get-SecurityLabels -IncidentID "123456"
-  * Get-SecurityLabels -SecurityLabel "Confidential"
-  * Get-SecurityLabels -SignatureID "123456"
-  * Get-SecurityLabels -ThreatID "123456"
-* Get-Tags
-  * Get-Tags
-  * Get-Tags -AdversaryID 123456
-  * Get-Tags -EmailID "123456"
-  * Get-Tags -IncidentID "123456"
-  * Get-Tags -SignatureID "123456"
-  * Get-Tags -TagName "BadStuff"
-  * Get-Tags -ThreatID "123456"
-* Get-Victims
-  * Get-Victims
-  * Get-Victims -AdversaryID 123456
-  * Get-Victims -EmailID "123456"
-  * Get-Victims -IncidentID "123456"
-  * Get-Victims -SignatureID "123456"
-  * Get-Victims -ThreatID "123456"
+* Get-TCOwners
+* Get-TCAdversaries
+  * Get-TCAdversaries
+  * Get-TCAdversaries -AdversaryID "123456"
+  * Get-TCAdversaries -EmailID "123456"
+  * Get-TCAdversaries -IncidentID "123456"
+  * Get-TCAdversaries -SecurityLabel "Confidential"
+  * Get-TCAdversaries -SignatureID "123456"
+  * Get-TCAdversaries -TagName "BadStuff"
+  * Get-TCAdversaries -ThreatID "123456"
+  * Get-TCAdversaries -VictimID "123456"
+  * Get-TCAdversaries -IndicatorType Address -Indicator "127.0.0.1"
+  * Get-TCAdversaries -IndicatorType EmailAddress -Indicator "test@baddomain.com"
+  * Get-TCAdversaries -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
+  * Get-TCAdversaries -IndicatorType Host -Indicator "baddomain.com"
+  * Get-TCAdversaries -IndicatorType URL -Indicator "http://baddomain.com/phishies
+* Get-TCGroups
+  * Get-TCGroups
+  * Get-TCGroups -AdversaryID 123456
+  * Get-TCGroups -EmailID "123456"
+  * Get-TCGroups -IncidentID "123456"
+  * Get-TCGroups -SecurityLabel "Confidential"
+  * Get-TCGroups -SignatureID "123456"
+  * Get-TCGroups -TagName "BadStuff"
+  * Get-TCGroups -ThreatID "123456"
+  * Get-TCGroups -VictimID "123456"
+* Get-TCAttributes
+  * Get-TCAttributes -AdversaryID "123456"
+  * Get-TCAttributes -EmailID "123456"
+  * Get-TCAttributes -IncidentID "123456"
+  * Get-TCAttributes -SignatureID "123456"
+  * Get-TCAttributes -ThreatID "123456"
+* Get-TCEmails
+  * Get-TCEmails
+  * Get-TCEmails -AdversaryID "123456"
+  * Get-TCEmails -EmailID "123456"
+  * Get-TCEmails -IncidentID "123456"
+  * Get-TCEmails -SecurityLabel "Confidential"
+  * Get-TCEmails -SignatureID "123456"
+  * Get-TCEmails -TagName "BadStuff"
+  * Get-TCEmails -ThreatID "123456"
+  * Get-TCEmails -VictimID "123456"
+* Get-TCIncidents
+  * Get-TCIncidents
+  * Get-TCIncidents -AdversaryID "123456"
+  * Get-TCIncidents -EmailID "123456"
+  * Get-TCIncidents -IncidentID "123456"
+  * Get-TCIncidents -SecurityLabel "Confidential"
+  * Get-TCIncidents -SignatureID "123456"
+  * Get-TCIncidents -TagName "BadStuff"
+  * Get-TCIncidents -ThreatID "123456"
+  * Get-TCIncidents -VictimID "123456"
+* Get-TCSignatures
+  * Get-TCSignatures
+  * Get-TCSignatures -AdversaryID "123456"
+  * Get-TCSignatures -EmailID "123456"
+  * Get-TCSignatures -IncidentID "123456"
+  * Get-TCSignatures -SecurityLabel "Confidential"
+  * Get-TCSignatures -SignatureID "123456"
+  * Get-TCSignatures -TagName "BadStuff"
+  * Get-TCSignatures -ThreatID "123456"
+  * Get-TCSignatures -VictimID "123456"
+* Get-TCThreats
+  * Get-TCThreats
+  * Get-TCThreats -AdversaryID "123456"
+  * Get-TCThreats -EmailID "123456"
+  * Get-TCThreats -IncidentID "123456"
+  * Get-TCThreats -SecurityLabel "Confidential"
+  * Get-TCThreats -SignatureID "123456"
+  * Get-TCThreats -TagName "BadStuff"
+  * Get-TCThreats -ThreatID "123456"
+  * Get-TCThreats -VictimID "123456"
+* Get-TCSecurityLabels
+  * Get-TCSecurityLabels
+  * Get-TCSecurityLabels -AdversaryID 123456
+  * Get-TCSecurityLabels -EmailID "123456"
+  * Get-TCSecurityLabels -IncidentID "123456"
+  * Get-TCSecurityLabels -SecurityLabel "Confidential"
+  * Get-TCSecurityLabels -SignatureID "123456"
+  * Get-TCSecurityLabels -ThreatID "123456"
+* Get-TCTags
+  * Get-TCTags
+  * Get-TCTags -AdversaryID 123456
+  * Get-TCTags -EmailID "123456"
+  * Get-TCTags -IncidentID "123456"
+  * Get-TCTags -SignatureID "123456"
+  * Get-TCTags -TagName "BadStuff"
+  * Get-TCTags -ThreatID "123456"
+* Get-TCVictims
+  * Get-TCVictims
+  * Get-TCVictims -AdversaryID 123456
+  * Get-TCVictims -EmailID "123456"
+  * Get-TCVictims -IncidentID "123456"
+  * Get-TCVictims -SignatureID "123456"
+  * Get-TCVictims -ThreatID "123456"
