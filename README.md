@@ -34,7 +34,7 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-Adversaries -SignatureID "123456"
   * Get-Adversaries -TagName "BadStuff"
   * Get-Adversaries -ThreatID "123456"
-  * Get-Adversaries -VictimID "123456".
+  * Get-Adversaries -VictimID "123456"
 * Get-Groups
   * Get-Groups
   * Get-Groups -AdversaryID 123456
