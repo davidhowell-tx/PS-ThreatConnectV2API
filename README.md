@@ -30,7 +30,7 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCOwners -IndicatorType EmailAddress -Indicator "test@baddomain.com"
   * Get-TCOwners -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
   * Get-TCOwners -IndicatorType Host -Indicator "baddomain.com"
-  * Get-TCOwners -IndicatorType URL -Indicator "http://baddomain.com/phishies
+  * Get-TCOwners -IndicatorType URL -Indicator "http://baddomain.com/phishies"
 * Get-TCAdversaries
   * Get-TCAdversaries
   * Get-TCAdversaries -AdversaryID "123456"
@@ -44,8 +44,8 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCAdversaries -IndicatorType Address -Indicator "127.0.0.1"
   * Get-TCAdversaries -IndicatorType EmailAddress -Indicator "test@baddomain.com"
   * Get-TCAdversaries -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
-  * Get-TCAdversaries -IndicatorType Host -Indicator "baddomain.com"
-  * Get-TCAdversaries -IndicatorType URL -Indicator "http://baddomain.com/phishies
+  * Get-TCAdversaries -IndicatorType Host -Indicator "baddomain.com"'
+  * Get-TCAdversaries -IndicatorType URL -Indicator "http://baddomain.com/phishies"
 * Get-TCGroups
   * Get-TCGroups
   * Get-TCGroups -AdversaryID 123456
@@ -56,12 +56,22 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCGroups -TagName "BadStuff"
   * Get-TCGroups -ThreatID "123456"
   * Get-TCGroups -VictimID "123456"
+  * Get-TCGroups -IndicatorType Address -Indicator "127.0.0.1"
+  * Get-TCGroups -IndicatorType EmailAddress -Indicator "test@baddomain.com"
+  * Get-TCGroups -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
+  * Get-TCGroups -IndicatorType Host -Indicator "baddomain.com"
+  * Get-TCGroups -IndicatorType URL -Indicator "http://baddomain.com/phishies"
 * Get-TCAttributes
   * Get-TCAttributes -AdversaryID "123456"
   * Get-TCAttributes -EmailID "123456"
   * Get-TCAttributes -IncidentID "123456"
   * Get-TCAttributes -SignatureID "123456"
   * Get-TCAttributes -ThreatID "123456"
+  * Get-TCAttributes -IndicatorType Address -Indicator "127.0.0.1"
+  * Get-TCAttributes -IndicatorType EmailAddress -Indicator "test@baddomain.com"
+  * Get-TCAttributes -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
+  * Get-TCAttributes -IndicatorType Host -Indicator "baddomain.com"
+  * Get-TCAttributes -IndicatorType URL -Indicator "http://baddomain.com/phishies"
 * Get-TCEmails
   * Get-TCEmails
   * Get-TCEmails -AdversaryID "123456"
@@ -72,6 +82,11 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCEmails -TagName "BadStuff"
   * Get-TCEmails -ThreatID "123456"
   * Get-TCEmails -VictimID "123456"
+  * Get-TCEmails -IndicatorType Address -Indicator "127.0.0.1"
+  * Get-TCEmails -IndicatorType EmailAddress -Indicator "test@baddomain.com"
+  * Get-TCEmails -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
+  * Get-TCEmails -IndicatorType Host -Indicator "baddomain.com"
+  * Get-TCEmails -IndicatorType URL -Indicator "http://baddomain.com/phishies"
 * Get-TCIncidents
   * Get-TCIncidents
   * Get-TCIncidents -AdversaryID "123456"
@@ -82,6 +97,21 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCIncidents -TagName "BadStuff"
   * Get-TCIncidents -ThreatID "123456"
   * Get-TCIncidents -VictimID "123456"
+  * Get-TCIncidents -IndicatorType Address -Indicator "127.0.0.1"
+  * Get-TCIncidents -IndicatorType EmailAddress -Indicator "test@baddomain.com"
+  * Get-TCIncidents -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
+  * Get-TCIncidents -IndicatorType Host -Indicator "baddomain.com"
+  * Get-TCIncidents -IndicatorType URL -Indicator "http://baddomain.com/phishies"
+* Get-TCIndicators
+  * Get-TCIndicators
+  * Get-TCIndicators -AdversaryID 123456
+  * Get-TCIndicators -EmailID "123456"
+  * Get-TCIndicators -IncidentID "123456"
+  * Get-TCIndicators -SecurityLabel "Confidential"
+  * Get-TCIndicators -SignatureID "123456"
+  * Get-TCIndicators -TagName "BadStuff"
+  * Get-TCIndicators -ThreatID "123456"
+  * Get-TCIndicators -VictimID "123456"
 * Get-TCSignatures
   * Get-TCSignatures
   * Get-TCSignatures -AdversaryID "123456"
@@ -92,6 +122,11 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCSignatures -TagName "BadStuff"
   * Get-TCSignatures -ThreatID "123456"
   * Get-TCSignatures -VictimID "123456"
+  * Get-TCSignatures -IndicatorType Address -Indicator "127.0.0.1"
+  * Get-TCSignatures -IndicatorType EmailAddress -Indicator "test@baddomain.com"
+  * Get-TCSignatures -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
+  * Get-TCSignatures -IndicatorType Host -Indicator "baddomain.com"
+  * Get-TCSignatures -IndicatorType URL -Indicator "http://baddomain.com/phishies"
 * Get-TCThreats
   * Get-TCThreats
   * Get-TCThreats -AdversaryID "123456"
@@ -102,6 +137,11 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCThreats -TagName "BadStuff"
   * Get-TCThreats -ThreatID "123456"
   * Get-TCThreats -VictimID "123456"
+  * Get-TCThreats -IndicatorType Address -Indicator "127.0.0.1"
+  * Get-TCThreats -IndicatorType EmailAddress -Indicator "test@baddomain.com"
+  * Get-TCThreats -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
+  * Get-TCThreats -IndicatorType Host -Indicator "baddomain.com"
+  * Get-TCThreats -IndicatorType URL -Indicator "http://baddomain.com/phishies"
 * Get-TCSecurityLabels
   * Get-TCSecurityLabels
   * Get-TCSecurityLabels -AdversaryID 123456
@@ -114,7 +154,7 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCSecurityLabels -IndicatorType EmailAddress -Indicator "test@baddomain.com"
   * Get-TCSecurityLabels -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
   * Get-TCSecurityLabels -IndicatorType Host -Indicator "baddomain.com"
-  * Get-TCSecurityLabels -IndicatorType URL -Indicator "http://baddomain.com/phishies
+  * Get-TCSecurityLabels -IndicatorType URL -Indicator "http://baddomain.com/phishies"
 * Get-TCTags
   * Get-TCTags
   * Get-TCTags -AdversaryID 123456
@@ -127,7 +167,7 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCTags -IndicatorType EmailAddress -Indicator "test@baddomain.com"
   * Get-TCTags -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
   * Get-TCTags -IndicatorType Host -Indicator "baddomain.com"
-  * Get-TCTags -IndicatorType URL -Indicator "http://baddomain.com/phishies	
+  * Get-TCTags -IndicatorType URL -Indicator "http://baddomain.com/phishies"
 * Get-TCVictims
   * Get-TCVictims
   * Get-TCVictims -AdversaryID 123456
@@ -135,3 +175,8 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCVictims -IncidentID "123456"
   * Get-TCVictims -SignatureID "123456"
   * Get-TCVictims -ThreatID "123456"
+  * Get-TCVictims -IndicatorType Address -Indicator "127.0.0.1"
+  * Get-TCVictims -IndicatorType EmailAddress -Indicator "test@baddomain.com"
+  * Get-TCVictims -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
+  * Get-TCVictims -IndicatorType Host -Indicator "baddomain.com"
+  * Get-TCVictims -IndicatorType URL -Indicator "http://baddomain.com/phishies
