@@ -25,6 +25,12 @@ At this time I have performed limited testing with some of these commands, but n
 # Available Commands
 `Note: -Owner switch can be used alongside many other switches. I have not included documentation on when it is available.`
 * Get-TCOwners
+  * Get-TCOwners
+  * Get-TCOwners -IndicatorType Address -Indicator "127.0.0.1"
+  * Get-TCOwners -IndicatorType EmailAddress -Indicator "test@baddomain.com"
+  * Get-TCOwners -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
+  * Get-TCOwners -IndicatorType Host -Indicator "baddomain.com"
+  * Get-TCOwners -IndicatorType URL -Indicator "http://baddomain.com/phishies
 * Get-TCAdversaries
   * Get-TCAdversaries
   * Get-TCAdversaries -AdversaryID "123456"
@@ -104,6 +110,11 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCSecurityLabels -SecurityLabel "Confidential"
   * Get-TCSecurityLabels -SignatureID "123456"
   * Get-TCSecurityLabels -ThreatID "123456"
+  * Get-TCSecurityLabels -IndicatorType Address -Indicator "127.0.0.1"
+  * Get-TCSecurityLabels -IndicatorType EmailAddress -Indicator "test@baddomain.com"
+  * Get-TCSecurityLabels -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
+  * Get-TCSecurityLabels -IndicatorType Host -Indicator "baddomain.com"
+  * Get-TCSecurityLabels -IndicatorType URL -Indicator "http://baddomain.com/phishies
 * Get-TCTags
   * Get-TCTags
   * Get-TCTags -AdversaryID 123456
@@ -112,6 +123,11 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCTags -SignatureID "123456"
   * Get-TCTags -TagName "BadStuff"
   * Get-TCTags -ThreatID "123456"
+  * Get-TCTags -IndicatorType Address -Indicator "127.0.0.1"
+  * Get-TCTags -IndicatorType EmailAddress -Indicator "test@baddomain.com"
+  * Get-TCTags -IndicatorType File -Indicator "d41d8cd98f00b204e9800998ecf8427e"
+  * Get-TCTags -IndicatorType Host -Indicator "baddomain.com"
+  * Get-TCTags -IndicatorType URL -Indicator "http://baddomain.com/phishies	
 * Get-TCVictims
   * Get-TCVictims
   * Get-TCVictims -AdversaryID 123456
