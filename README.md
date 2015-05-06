@@ -105,13 +105,24 @@ At this time I have performed limited testing with some of these commands, but n
 * Get-TCIndicators
   * Get-TCIndicators
   * Get-TCIndicators -AdversaryID <AdversaryID>
+  * Get-TCIndicators -AdversaryID <AdversaryID> -IndicatorType <IndicatorType>
   * Get-TCIndicators -EmailID <EmailID>
-  * Get-TCIndicators -IncidentID <IncidentID>
+  * Get-TCIndicators -EmailID <EmailID> -IndicatorType <IndicatorType>
+  * Get-TCIndicators -IncidentID <IncidentID>	
+  * Get-TCIndicators -IncidentID <IncidentID> -IndicatorType <IndicatorType>
+  * Get-TCIndicators -IndicatorType <IndicatorType> -Indicator <Indicator>
+  * Get-TCIndicators -IndicatorType Host -Indicator <Indicator> -DNSResolutions
+  * Get-TCIndicators -IndicatorType File -Indicator <Indicator> -FileOccurrences
   * Get-TCIndicators -SecurityLabel <SecurityLabel>
+  * Get-TCIndicators -SecurityLabel <SecurityLabel> -IndicatorType <IndicatorType>
   * Get-TCIndicators -SignatureID <SignatureID>
+  * Get-TCIndicators -SignatureID <SignatureID> -IndicatorType <IndicatorType>
   * Get-TCIndicators -TagName <TagName>
+  * Get-TCIndicators -TagName <TagName> -IndicatorType <IndicatorType>
   * Get-TCIndicators -ThreatID <ThreatID>
+  * Get-TCIndicators -ThreatID <ThreatID> -IndicatorType <IndicatorType>
   * Get-TCIndicators -VictimID <VictimID>
+  * Get-TCIndicators -VictimID <VictimID> -IndicatorType <IndicatorType>
 * Get-TCSignatures
   * Get-TCSignatures
   * Get-TCSignatures -AdversaryID <AdversaryID>
