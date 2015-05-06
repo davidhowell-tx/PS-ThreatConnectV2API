@@ -210,3 +210,22 @@ At this time I have performed limited testing with some of these commands, but n
   * Get-TCVictimAssets -IndicatorType File -Indicator <Indicator>
   * Get-TCVictimAssets -IndicatorType Host -Indicator <Indicator>
   * Get-TCVictimAssets -IndicatorType URL -Indicator <Indicator>
+* New-TCAdversary
+  * New-TCAdversary -Name <AdversaryName>
+* New-TCEmail
+  * New-TCEmail -Name <EmailName> -Subject <Subject> -Body <Body> -Header <Header>
+  * New-TCEmail -Name <EmailName> -Subject <Subject> -Body <Body> -Header <Header> -To <To> -From <From>
+* New-TCIncident
+  * New-TCIncident -Name <IncidentName> -EventDate "2015-01-01T14:00:00-06:00"
+  * New-TCIncident -Name <IncidentName> -EventDate (Get-Date -Date "10/01/2014 15:00:03" -Format "yyyy-MM-ddThh:mm:sszzzz")
+  * New-TCIncident -Name <IncidentName> -EventDate "10/01/2014 15:00:03"
+* New-TCThreat
+  * New-TCThreat -Name <ThreatName>
+* New-TCSignature
+  * New-TCSignature -Name <Name> -FileName <FileName.txt> -FileType <FileType> -FileText <FileText>
+* New-TCAttribute
+  * New-TCAttribute -AdversaryID <AdversaryID> -Name Description -Value "Testing Description Creation"
+  * New-TCAttribute -EmailID <EmailID> -Name Description -Value "Testing Description Creation"
+  * New-TCAttribute -IncidentID <IncidentID> -Name Description -Value "Testing Description Creation"
+  * New-TCAttribute -ThreatID <ThreatID> -Name Description -Value "Testing Description Creation"
+  * New-TCAttribute -SignatureID <SignatureID> -Name Description -Value "Testing Description Creation"
