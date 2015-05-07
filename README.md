@@ -25,207 +25,21 @@ At this time I have performed limited testing with some of these commands, but n
 # Available Commands
 `Note: -Owner switch can be used alongside many other switches. I have not included documentation on when it is available.`
 * Get-TCOwners
-  * Get-TCOwners
-  * Get-TCOwners -IndicatorType Address -Indicator <Indicator>
-  * Get-TCOwners -IndicatorType EmailAddress -Indicator <Indicator>
-  * Get-TCOwners -IndicatorType File -Indicator <Indicator>
-  * Get-TCOwners -IndicatorType Host -Indicator <Indicator>
-  * Get-TCOwners -IndicatorType URL -Indicator <Indicator>
 * Get-TCAdversaries
-  * Get-TCAdversaries
-  * Get-TCAdversaries -AdversaryID <AdversaryID>
-  * Get-TCAdversaries -EmailID <EmailID>
-  * Get-TCAdversaries -IncidentID <IncidentID>
-  * Get-TCAdversaries -SecurityLabel <SecurityLabel>
-  * Get-TCAdversaries -SignatureID <SignatureID>
-  * Get-TCAdversaries -TagName <TagName>
-  * Get-TCAdversaries -ThreatID <ThreatID>
-  * Get-TCAdversaries -VictimID <VictimID>
-  * Get-TCAdversaries -IndicatorType Address -Indicator <Indicator>
-  * Get-TCAdversaries -IndicatorType EmailAddress -Indicator <Indicator>
-  * Get-TCAdversaries -IndicatorType File -Indicator <Indicator>
-  * Get-TCAdversaries -IndicatorType Host -Indicator <Indicator>'
-  * Get-TCAdversaries -IndicatorType URL -Indicator <Indicator>
 * Get-TCGroups
-  * Get-TCGroups
-  * Get-TCGroups -AdversaryID <AdversaryID>
-  * Get-TCGroups -EmailID <EmailID>
-  * Get-TCGroups -IncidentID <IncidentID>
-  * Get-TCGroups -SecurityLabel <SecurityLabel>
-  * Get-TCGroups -SignatureID <SignatureID>
-  * Get-TCGroups -TagName <TagName>
-  * Get-TCGroups -ThreatID <ThreatID>
-  * Get-TCGroups -VictimID <VictimID>
-  * Get-TCGroups -IndicatorType Address -Indicator <Indicator>
-  * Get-TCGroups -IndicatorType EmailAddress -Indicator <Indicator>
-  * Get-TCGroups -IndicatorType File -Indicator <Indicator>
-  * Get-TCGroups -IndicatorType Host -Indicator <Indicator>
-  * Get-TCGroups -IndicatorType URL -Indicator <Indicator>
 * Get-TCAttributes
-  * Get-TCAttributes -AdversaryID <AdversaryID>
-  * Get-TCAttributes -EmailID <EmailID>
-  * Get-TCAttributes -IncidentID <IncidentID>
-  * Get-TCAttributes -SignatureID <SignatureID>
-  * Get-TCAttributes -ThreatID <ThreatID>
-  * Get-TCAttributes -IndicatorType Address -Indicator <Indicator>
-  * Get-TCAttributes -IndicatorType EmailAddress -Indicator <Indicator>
-  * Get-TCAttributes -IndicatorType File -Indicator <Indicator>
-  * Get-TCAttributes -IndicatorType Host -Indicator <Indicator>
-  * Get-TCAttributes -IndicatorType URL -Indicator <Indicator>
 * Get-TCEmails
-  * Get-TCEmails
-  * Get-TCEmails -AdversaryID <AdversaryID>
-  * Get-TCEmails -EmailID <EmailID>
-  * Get-TCEmails -IncidentID <IncidentID>
-  * Get-TCEmails -SecurityLabel <SecurityLabel>
-  * Get-TCEmails -SignatureID <SignatureID>
-  * Get-TCEmails -TagName <TagName>
-  * Get-TCEmails -ThreatID <ThreatID>
-  * Get-TCEmails -VictimID <VictimID>
-  * Get-TCEmails -IndicatorType Address -Indicator <Indicator>
-  * Get-TCEmails -IndicatorType EmailAddress -Indicator <Indicator>
-  * Get-TCEmails -IndicatorType File -Indicator <Indicator>
-  * Get-TCEmails -IndicatorType Host -Indicator <Indicator>
-  * Get-TCEmails -IndicatorType URL -Indicator <Indicator>
 * Get-TCIncidents
-  * Get-TCIncidents
-  * Get-TCIncidents -AdversaryID <AdversaryID>
-  * Get-TCIncidents -EmailID <EmailID>
-  * Get-TCIncidents -IncidentID <IncidentID>
-  * Get-TCIncidents -SecurityLabel <SecurityLabel>
-  * Get-TCIncidents -SignatureID <SignatureID>
-  * Get-TCIncidents -TagName <TagName>
-  * Get-TCIncidents -ThreatID <ThreatID>
-  * Get-TCIncidents -VictimID <VictimID>
-  * Get-TCIncidents -IndicatorType Address -Indicator <Indicator>
-  * Get-TCIncidents -IndicatorType EmailAddress -Indicator <Indicator>
-  * Get-TCIncidents -IndicatorType File -Indicator <Indicator>
-  * Get-TCIncidents -IndicatorType Host -Indicator <Indicator>
-  * Get-TCIncidents -IndicatorType URL -Indicator <Indicator>
 * Get-TCIndicators
-  * Get-TCIndicators
-  * Get-TCIndicators -AdversaryID <AdversaryID>
-  * Get-TCIndicators -AdversaryID <AdversaryID> -IndicatorType <IndicatorType>
-  * Get-TCIndicators -EmailID <EmailID>
-  * Get-TCIndicators -EmailID <EmailID> -IndicatorType <IndicatorType>
-  * Get-TCIndicators -IncidentID <IncidentID>	
-  * Get-TCIndicators -IncidentID <IncidentID> -IndicatorType <IndicatorType>
-  * Get-TCIndicators -IndicatorType <IndicatorType> -Indicator <Indicator>
-  * Get-TCIndicators -IndicatorType Host -Indicator <Indicator> -DNSResolutions
-  * Get-TCIndicators -IndicatorType File -Indicator <Indicator> -FileOccurrences
-  * Get-TCIndicators -SecurityLabel <SecurityLabel>
-  * Get-TCIndicators -SecurityLabel <SecurityLabel> -IndicatorType <IndicatorType>
-  * Get-TCIndicators -SignatureID <SignatureID>
-  * Get-TCIndicators -SignatureID <SignatureID> -IndicatorType <IndicatorType>
-  * Get-TCIndicators -TagName <TagName>
-  * Get-TCIndicators -TagName <TagName> -IndicatorType <IndicatorType>
-  * Get-TCIndicators -ThreatID <ThreatID>
-  * Get-TCIndicators -ThreatID <ThreatID> -IndicatorType <IndicatorType>
-  * Get-TCIndicators -VictimID <VictimID>
-  * Get-TCIndicators -VictimID <VictimID> -IndicatorType <IndicatorType>
 * Get-TCSignatures
-  * Get-TCSignatures
-  * Get-TCSignatures -AdversaryID <AdversaryID>
-  * Get-TCSignatures -EmailID <EmailID>
-  * Get-TCSignatures -IncidentID <IncidentID>
-  * Get-TCSignatures -SecurityLabel <SecurityLabel>
-  * Get-TCSignatures -SignatureID <SignatureID>
-  * Get-TCSignatures -TagName <TagName>
-  * Get-TCSignatures -ThreatID <ThreatID>
-  * Get-TCSignatures -VictimID <VictimID>
-  * Get-TCSignatures -IndicatorType Address -Indicator <Indicator>
-  * Get-TCSignatures -IndicatorType EmailAddress -Indicator <Indicator>
-  * Get-TCSignatures -IndicatorType File -Indicator <Indicator>
-  * Get-TCSignatures -IndicatorType Host -Indicator <Indicator>
-  * Get-TCSignatures -IndicatorType URL -Indicator <Indicator>
 * Get-TCThreats
-  * Get-TCThreats
-  * Get-TCThreats -AdversaryID <AdversaryID>
-  * Get-TCThreats -EmailID <EmailID>
-  * Get-TCThreats -IncidentID <IncidentID>
-  * Get-TCThreats -SecurityLabel <SecurityLabel>
-  * Get-TCThreats -SignatureID <SignatureID>
-  * Get-TCThreats -TagName <TagName>
-  * Get-TCThreats -ThreatID <ThreatID>
-  * Get-TCThreats -VictimID <VictimID>
-  * Get-TCThreats -IndicatorType Address -Indicator <Indicator>
-  * Get-TCThreats -IndicatorType EmailAddress -Indicator <Indicator>
-  * Get-TCThreats -IndicatorType File -Indicator <Indicator>
-  * Get-TCThreats -IndicatorType Host -Indicator <Indicator>
-  * Get-TCThreats -IndicatorType URL -Indicator <Indicator>
 * Get-TCSecurityLabels
-  * Get-TCSecurityLabels
-  * Get-TCSecurityLabels -AdversaryID <AdversaryID>
-  * Get-TCSecurityLabels -EmailID <EmailID>
-  * Get-TCSecurityLabels -IncidentID <IncidentID>
-  * Get-TCSecurityLabels -SecurityLabel <SecurityLabel>
-  * Get-TCSecurityLabels -SignatureID <SignatureID>
-  * Get-TCSecurityLabels -ThreatID <ThreatID>
-  * Get-TCSecurityLabels -IndicatorType Address -Indicator <Indicator>
-  * Get-TCSecurityLabels -IndicatorType EmailAddress -Indicator <Indicator>
-  * Get-TCSecurityLabels -IndicatorType File -Indicator <Indicator>
-  * Get-TCSecurityLabels -IndicatorType Host -Indicator <Indicator>
-  * Get-TCSecurityLabels -IndicatorType URL -Indicator <Indicator>
 * Get-TCTags
-  * Get-TCTags
-  * Get-TCTags -AdversaryID <AdversaryID>
-  * Get-TCTags -EmailID <EmailID>
-  * Get-TCTags -IncidentID <IncidentID>
-  * Get-TCTags -SignatureID <SignatureID>
-  * Get-TCTags -TagName <TagName>
-  * Get-TCTags -ThreatID <ThreatID>
-  * Get-TCTags -IndicatorType Address -Indicator <Indicator>
-  * Get-TCTags -IndicatorType EmailAddress -Indicator <Indicator>
-  * Get-TCTags -IndicatorType File -Indicator <Indicator>
-  * Get-TCTags -IndicatorType Host -Indicator <Indicator>
-  * Get-TCTags -IndicatorType URL -Indicator <Indicator>
 * Get-TCVictims
-  * Get-TCVictims
-  * Get-TCVictims -AdversaryID <AdversaryID>
-  * Get-TCVictims -EmailID <EmailID>
-  * Get-TCVictims -IncidentID <IncidentID>
-  * Get-TCVictims -SignatureID <SignatureID>
-  * Get-TCVictims -ThreatID <ThreatID>
-  * Get-TCVictims -IndicatorType Address -Indicator <Indicator>
-  * Get-TCVictims -IndicatorType EmailAddress -Indicator <Indicator>
-  * Get-TCVictims -IndicatorType File -Indicator <Indicator>
-  * Get-TCVictims -IndicatorType Host -Indicator <Indicator>
-  * Get-TCVictims -IndicatorType URL -Indicator <Indicator>
 * Get-TCVictimAssets
-  * Get-TCVictimAssets
-  * Get-TCVictimAssets -AdversaryID <AdversaryID>
-  * Get-TCVictimAssets -AdversaryID <AdversaryID> -AssetType <AssetType>
-  * Get-TCVictimAssets -EmailID <EmailID>
-  * Get-TCVictimAssets -EmailID <EmailID> -AssetType <AssetType>
-  * Get-TCVictimAssets -IncidentID <IncidentID>
-  * Get-TCVictimAssets -IncidentID <IncidentID> -AssetType <AssetType>
-  * Get-TCVictimAssets -SignatureID <SignatureID>
-  * Get-TCVictimAssets -SignatureID <SignatureID> -AssetType <AssetType>
-  * Get-TCVictimAssets -ThreatID <ThreatID>
-  * Get-TCVictimAssets -ThreatID <ThreatID> -AssetType <AssetType>
-  * Get-TCVictimAssets -VictimID <VictimID>
-  * Get-TCVictimAssets -VictimID <VictimID> -AssetType <AssetType>
-  * Get-TCVictimAssets -IndicatorType Address -Indicator <Indicator>
-  * Get-TCVictimAssets -IndicatorType EmailAddress -Indicator <Indicator>
-  * Get-TCVictimAssets -IndicatorType File -Indicator <Indicator>
-  * Get-TCVictimAssets -IndicatorType Host -Indicator <Indicator>
-  * Get-TCVictimAssets -IndicatorType URL -Indicator <Indicator>
 * New-TCAdversary
-  * New-TCAdversary -Name <AdversaryName>
 * New-TCEmail
-  * New-TCEmail -Name <EmailName> -Subject <Subject> -Body <Body> -Header <Header>
-  * New-TCEmail -Name <EmailName> -Subject <Subject> -Body <Body> -Header <Header> -To <To> -From <From>
 * New-TCIncident
-  * New-TCIncident -Name <IncidentName> -EventDate "2015-01-01T14:00:00-06:00"
-  * New-TCIncident -Name <IncidentName> -EventDate (Get-Date -Date "10/01/2014 15:00:03" -Format "yyyy-MM-ddThh:mm:sszzzz")
-  * New-TCIncident -Name <IncidentName> -EventDate "10/01/2014 15:00:03"
 * New-TCThreat
-  * New-TCThreat -Name <ThreatName>
 * New-TCSignature
-  * New-TCSignature -Name <Name> -FileName <FileName.txt> -FileType <FileType> -FileText <FileText>
 * New-TCAttribute
-  * New-TCAttribute -AdversaryID <AdversaryID> -Name Description -Value "Testing Description Creation"
-  * New-TCAttribute -EmailID <EmailID> -Name Description -Value "Testing Description Creation"
-  * New-TCAttribute -IncidentID <IncidentID> -Name Description -Value "Testing Description Creation"
-  * New-TCAttribute -ThreatID <ThreatID> -Name Description -Value "Testing Description Creation"
-  * New-TCAttribute -SignatureID <SignatureID> -Name Description -Value "Testing Description Creation"
