@@ -45,9 +45,7 @@ At this time I have performed limited testing with some of these commands, but n
 * Get-TCVictims
 * Get-TCVictimAssets
 * New-TCAdversary
-* New-TCEmail
 * New-TCIncident
 * New-TCThreat
-* New-TCSignature
 * New-TCAttribute
 * Set-TCAttribute
