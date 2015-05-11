@@ -23,7 +23,10 @@ At this time I have performed limited testing with some of these commands, but n
   * For Example `Get-Help Get-TCOwners`
 
 # Available Commands
-`Note: -Owner switch can be used alongside many other switches. I have not included documentation on when it is available.`
+`Note: -Owner switch can be used to specify the "owner" to query (Common Community, Subscriber Community, etc.).`
+`Note: -ResultLimit switch can be used to specify number of results to return. Default is 100, Maximum is 500.`
+`Note: -ResultStart switch can be used with large number of results to start listing results at a numbered offset (example: list 100 results starting at 100, or 100 through 200).`
+`-Owner, -ResultLimit, and -ResultStart switches can be used in most of the commands, alongside many of the other switches.`
 * Get-TCOwners
 * Get-TCAdversaries
 * Get-TCGroups
@@ -43,3 +46,4 @@ At this time I have performed limited testing with some of these commands, but n
 * New-TCThreat
 * New-TCSignature
 * New-TCAttribute
+* Set-TCAttribute
