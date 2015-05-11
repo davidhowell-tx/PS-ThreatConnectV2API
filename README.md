@@ -22,6 +22,10 @@ At this time I have performed limited testing with some of these commands, but n
 
   * For Example `Get-Help Get-TCOwners`
 
+# Requirements
+* Powershell Version 3
+`.NET Framework v4 may also be required, but unsure`
+
 # Available Commands
 `Note: -Owner switch can be used to specify the "owner" to query (Common Community, Subscriber Community, etc.).`
 `Note: -ResultLimit switch can be used to specify number of results to return. Default is 100, Maximum is 500.`
